@@ -10,12 +10,16 @@
         </p>
       </div>
       <div class="column m-5 columns is-multiline is-mobile is-centered boxeh bold">
-        <a class="column is-narrow m-3 boxeh2 mol" href="./quadreg">
-          (quadreg) - using java to get create a line of best fit given restraints, and find points on that line.
-        </a>
-        <a class="column is-narrow m-3 boxeh2 mol" href="./limited-list">
-          (limited list) - another java writeup, but on using primitive arrays to have rotating array list.
-        </a>
+        <p class="column m-3 boxeh2 is-full mol">
+          <a class="groo" href="./quadreg">
+            (quadreg) - using java to get create a line of best fit given restraints, and find points on that line.
+          </a>
+        </p>
+        <p class="column m-3 boxeh2 is-full mol">
+          <a class="groo" href="./limited-list">
+            (limited list) - another java writeup, but on using primitive arrays to have rotating array list.
+          </a>
+        </p>
       </div>
     </div>
   </div>
