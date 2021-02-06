@@ -1,0 +1,142 @@
+html, body, .doc {
+    background-color: #242126;
+    font-family: "Segoe UI", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.real-nav-item {
+  background-color: #676d67;
+  border-radius: 10px;
+}
+
+.force-left {
+  text-align: left;
+}
+
+.real-nav-item:hover {
+  background-color: #514953;
+}
+
+.real-navbar {
+  color: #eaeaea;
+  background-color: #39313b;
+}
+
+.pad-10 {
+  padding: 10px;
+}
+
+#navbar {
+    background-color: #332f34;
+    border-radius: 30px;
+}
+
+.nav-a {
+    color: #332f34;
+    text-decoration: none;
+    filter: invert(10%);
+}
+
+.round-image {
+    border-radius: 20px;
+}
+
+.nav-button {
+    background-color: #48444a;
+    border-radius: 10px;
+}
+
+.nav-button:hover {
+    box-shadow: 0 0 20px #7e668c;
+}
+
+.white-text {
+    color: #eaeaea;
+}
+
+.large {
+    font-size: 38px;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.force-center {
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.smol {
+    width: 50px;
+    height: 50px;
+}
+
+.img-link:hover {
+    filter: invert(30%);
+}
+
+code {
+    color: #eaeaea;
+    background-color: #453d47;
+    font-family: "Segoe UI", sans-serif;
+    border-radius: 5px;
+}
+.boxeh {
+    background-color: #332f34;
+    border-radius: 10px;
+}
+
+.boxeh1 {
+    background-color: #48444a;
+    border-radius: 10px;
+}
+
+.pink {
+    color: #f4a1da;
+}
+
+.red {
+    color: #ff878c;
+}
+
+.purple {
+    color: #9877b7;
+}
+
+.gray {
+    color: #c6c0c0;
+}
+
+.mol {
+    font-size: 20px;
+}
+
+.boxeh2 {
+  font-size: 16px;
+  background-color: #453d47;
+  border-radius: 10px;
+  color: #989898;
+}
+
+.boxeh2:hover {
+  background-color: #514953;
+}
+
+.grlnk {
+  color: #3b8070;
+  font-weight: bold;
+}
+
+.grlnk:hover {
+  text-decoration: underline;
+  text-decoration-color: #3b8070;
+}
+
+.groo {
+  color: #989898;
+}

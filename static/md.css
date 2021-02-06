@@ -1,0 +1,87 @@
+* {
+  text-shadow: none;
+}
+
+a {
+  color: #3b8070;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: #3b8070;
+}
+
+.is-18 {
+  font-size: 18px;
+}
+
+html, body {
+  margin-left: 2em;
+  margin-right: 2em;
+  background-color: #332f34;
+  color: #eaeaea;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+code {
+  background-color: #49454a;
+  border-radius: 10px;
+  color: #c7c2ea;
+}
+
+strong {
+  color: #eaeaea;
+  font-weight: bolder;
+}
+
+h1 {
+  font-size: 48px;
+  text-align: center;
+  margin-top: 1em;
+  margin-right: 1em;
+  margin-left: 1em;
+}
+
+p {
+  margin: 1.5em;
+}
+
+code[class*="language-"], pre[class*="language-"] {
+  margin: 1.5em;
+  background-color: #453d47;
+  border-radius: 10px;
+  color: #eaeaea;
+}
+
+.token.atrule, .token.attr-value, .token.keyword {
+  color: #9877b7;
+}
+
+.token.operator, .token.entity, .token.url, .language-css .token.string, .style .token.string {
+  background: none;
+  color: #3b8070;
+}
+
+.number {
+  background: none;
+  font-size: inherit;
+  padding: inherit;
+  min-width: inherit;
+  border-radius: inherit;
+  margin: inherit;
+}
+
+.token.property, .token.tag, .token.boolean, .token.number, .token.constant, .token.symbol, .token.deleted {
+  color: #ff878c;
+}
+
+.token.selector, .token.attr-name, .token.string, .token.char, .token.builtin, .token.inserted {
+  color: #63dbc8;
+}
