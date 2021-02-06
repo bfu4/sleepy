@@ -12,7 +12,7 @@
             <div class="column is-centered columns is-mobile is-multiline">
               <nav-button class="m-2 column is-narrow" img="/twitter-grn.png" url="https://twitter.com/bellafusari1"/>
               <nav-button class="m-2 column is-narrow" img="/gitgreen.png" url="https://github.com/bfu4"/>
-              <nav-button class="m-2 column is-narrow" img="/horsegrn.png" url="https://sleeepy.ninja/horse"/>
+              <nav-button class="m-2 column is-narrow" img="/horsegrn.png" url="/horse"/>
               <nav-button class="m-2 column is-narrow" img="/asu.jpg" v-bind:round="true"
                           url="https://sleeeepyti.me/extern/catmc.mp4"/>
               <nav-button class="m-2 column is-narrow" img="/dscgrn.png" url="https://dsc.bio/neemy"/>
