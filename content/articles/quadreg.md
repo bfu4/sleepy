@@ -1,6 +1,6 @@
 # quadreg (java) - getting the curve of best fit from 2 points.
 
-<div align="center"><em>this sight is NOT (really) mobile friendly!</em><br><br>this page is on GIST!</div>
+<div align="center"><em>this site is NOT (really) mobile friendly!</em><br><br>this page is on GIST!</div>
 
 <br/>
 <hr/>
