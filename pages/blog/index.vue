@@ -20,6 +20,11 @@
             (limited list) - another java writeup, but on using primitive arrays to have rotating array list.
           </p>
         </a>
+        <a class="column m-3 boxeh2 is-full mol" href="/blog/limited-list">
+          <p class="groo">
+            (jni - 1) - simple tutorial of compiling and using jni on ubuntu in a small classpath using javac.
+          </p>
+        </a>
       </div>
     </div>
   </div>
