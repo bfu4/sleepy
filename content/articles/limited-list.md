@@ -17,15 +17,7 @@ This might be one of my most useful tools that I've created for myself -- and he
 <a href="https://raw.githubusercontent.com/bfu4/TeleportQueue/master/src/main/java/com/github/bfu4/teleportqueue/abs/LimitedList.java" target="_blank" class="is-18">[ VIEW RAW ]</a>
 ```java
 import java.util.Arrays;
-
-/**
- * LimitedList - Fast list with a limited amount of objects
- *
- * @author bfu4
- * @since 03/01/2021 @ 19.06
- */
-
-import java.util.Arrays;
+import java.util.List;
 
 public class LimitedList<E> {
 
@@ -192,6 +184,10 @@ public class LimitedList<E> {
    @Override
    public String toString() {
       return Arrays.toString(elements);
+   }
+
+   public List<E> asList() {
+      return Arrays.asList(toArray());
    }
 
 }
