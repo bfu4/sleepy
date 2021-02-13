@@ -7,22 +7,27 @@ a {
   text-decoration: none;
 }
 
-.real-nav-item {
-  background-color: #676d67;
+a.real-nav-item {
+  color: #eaeaea;
+  background-color: #413843;
   border-radius: 10px;
+  -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
 }
 
 .force-left {
   text-align: left;
 }
 
-.real-nav-item:hover {
-  background-color: #514953;
+a.real-nav-item:hover {
+  border-radius: 0px;
+  border-bottom: 4px solid #676d67;
 }
 
 .real-navbar {
   color: #eaeaea;
   background-color: #39313b;
+  resize: none;
 }
 
 .pad-10 {
@@ -47,6 +52,8 @@ a {
 .nav-button {
     background-color: #48444a;
     border-radius: 10px;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
 }
 
 .nav-button:hover {

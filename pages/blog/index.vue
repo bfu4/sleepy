@@ -25,7 +25,7 @@
             (jni - 1) - simple tutorial of compiling and using jni on ubuntu in a small classpath using javac.
           </p>
         </a>
-        <a class="column m-3 boxeh2 is-full mol" href="/blog/jni-1">
+        <a class="column m-3 boxeh2 is-full mol" href="/blog/postfix-1">
           <p class="groo">
             (postfix - 1) - simple and probably hacky way of setting up a custom domain email on a VPS using postfix and dovecot.
           </p>
