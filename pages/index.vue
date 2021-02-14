@@ -2,6 +2,7 @@
   <div id="app">
     <link rel="stylesheet" href="/styles.css">
     <div class="m-1 is-centered is-mobile">
+
       <nav class="column navbar real-navbar columns is-mobile is-fixed-top" style="padding: 20px;">
         <a class="column real-nav-item m-2 ml-5 is-narrow nav-link has-text-weight-bold pad-10 white-text" href="https://github.com/bfu4/TeleportQueue" target="_blank">feature of the week</a>
         <a class="column real-nav-item m-2 ml-5 is-narrow nav-link has-text-weight-bold pad-10 white-text" href="/blog" target="_blank">blog</a>
