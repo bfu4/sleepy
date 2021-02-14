@@ -1,18 +1,31 @@
 html, body, .doc {
-    background-color: #242126;
-    font-family: "Segoe UI", sans-serif;
+  background-color: #e7e7e7;
+  font-family: "Segoe UI", sans-serif;
 }
 
 a {
   text-decoration: none;
+  outline: 0;
 }
+
+.fa-icon {
+  color: #968b99;
+  font-size: 60px;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.fa-icon:hover {
+  color: #676d67;
+}
+
 
 a.real-nav-item {
   color: #eaeaea;
   background-color: #413843;
   border-radius: 10px;
   -webkit-transition: 0.3s ease;
-    transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 .force-left {
@@ -35,92 +48,132 @@ a.real-nav-item:hover {
 }
 
 #navbar {
-    background-color: #332f34;
-    border-radius: 30px;
+  background-color: #332f34;
+  border-radius: 30px;
 }
 
 .nav-a {
-    color: #332f34;
-    text-decoration: none;
-    filter: invert(10%);
+  color: #332f34;
+  text-decoration: none;
+  filter: invert(10%);
 }
 
-.round-image {
-    border-radius: 20px;
+.fig:hover {
+  z-index: 7;
+}
+
+.fig-1 {
+  z-index: 6;
+}
+
+.profile-img1 {
+  transform: translateX(30px);
+  border-radius: 300px;
+  min-width: 150px;
+  min-height: 150px;
+  max-width: 300px;
+  max-height: 300px;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.profile-img1:hover {
+  transform: translateX(30px) scale(1.2);
+}
+
+.profile-img2 {
+  transform: translateX(-30px);
+  min-width: 150px;
+  min-height: 150px;
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 300px;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.profile-img2:hover {
+  transform: translateX(-30px) scale(1.2);
+}
+
+.special:hover {
+  text-decoration: underline;
+  text-decoration-color: #9877b7;
 }
 
 .nav-button {
-    background-color: #48444a;
-    border-radius: 10px;
-    -webkit-transition: 0.3s ease;
-    transition: 0.3s ease;
+  background-color: #48444a;
+  border-radius: 10px;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 .nav-button:hover {
-    box-shadow: 0 0 20px #7e668c;
+  box-shadow: 0 0 20px #7e668c;
 }
 
 .white-text {
-    color: #eaeaea;
+  color: #eaeaea;
 }
 
 .large {
-    font-size: 38px;
+  font-size: 38px;
 }
 
 .bold {
-    font-weight: bolder;
+  font-weight: bolder;
 }
 
 .force-center {
-    text-align: center;
-    justify-items: center;
-    align-items: center;
+  text-align: center;
+  justify-items: center;
+  align-items: center;
 }
 
 .smol {
-    width: 50px;
-    height: 50px;
+  width: 50px;
+  height: 50px;
 }
 
 .img-link:hover {
-    filter: invert(30%);
+  filter: invert(30%);
 }
 
 code {
-    color: #eaeaea;
-    background-color: #453d47;
-    font-family: "Segoe UI", sans-serif;
-    border-radius: 5px;
+  color: #eaeaea;
+  background-color: #453d47;
+  font-family: "Segoe UI", sans-serif;
+  border-radius: 5px;
 }
+
 .boxeh {
-    background-color: #332f34;
-    border-radius: 10px;
+  background-color: #332f34;
+  border-radius: 10px;
 }
 
 .boxeh1 {
-    background-color: #48444a;
-    border-radius: 10px;
+  background-color: #48444a;
+  border-radius: 10px;
 }
 
 .pink {
-    color: #f4a1da;
+  color: #f4a1da;
 }
 
 .red {
-    color: #ff878c;
+  color: #ff878c;
 }
 
 .purple {
-    color: #9877b7;
+  color: #9877b7;
 }
 
 .gray {
-    color: #c6c0c0;
+  color: #c6c0c0;
 }
 
 .mol {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .boxeh2 {

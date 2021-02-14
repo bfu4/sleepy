@@ -6,19 +6,48 @@
         <a class="column real-nav-item m-2 ml-5 is-narrow nav-link has-text-weight-bold pad-10 white-text" href="https://github.com/bfu4/TeleportQueue" target="_blank">feature of the week</a>
         <a class="column real-nav-item m-2 ml-5 is-narrow nav-link has-text-weight-bold pad-10 white-text" href="/blog" target="_blank">blog</a>
       </nav>
+
+      <!-- fun images for the lolz -->
       <div class="columns is-multiline is-centered is-mobile" style="padding-top: 100px; padding-left: 100px; padding-right: 100px;">
         <div class="m-5">
-          <div id="navbar" class="column m-5 columns is-left is-centered is-mobile is-multiline">
+          <div class="column is-centered is-full is-mobile columns m-2 is-mobile">
+            <figure class="column image fig fig-1">
+              <img class="profile-img1 is-1by1" src="https://avatars.githubusercontent.com/u/46942366"/>
+            </figure>
+            <figure class="column image fig">
+              <img class="profile-img2 is-1by1" src="https://pbs.twimg.com/profile_images/1346886013814235138/yPyl6ArY_400x400.jpg"/>
+            </figure>
+          </div>
+
+          <div class="special column is-centered large bold force-center">bfu4</div>
+
+          <!-- github -->
+          <div class="column m-5 columns is-left is-centered is-mobile is-multiline">
             <div class="column is-centered columns is-mobile is-multiline">
-              <nav-button class="m-2 column is-narrow" img="/twitter-grn.png" url="https://twitter.com/bellafusari1"/>
-              <nav-button class="m-2 column is-narrow" img="/gitgreen.png" url="https://github.com/bfu4"/>
+              <div class="m-3 column is-narrow">
+                <a href="https://github.com/bfu4" target="_blank">
+                  <font-awesome-icon class="fa-icon" :icon="['fab', 'github']"></font-awesome-icon>
+                </a>
+              </div>
+              <!-- linkedin -->
+              <div class="m-3 column is-narrow">
+                <a href="https://www.linkedin.com/in/bella-fusari-2337b3202" target="_blank">
+                  <font-awesome-icon class="fa-icon" :icon="['fab', 'linkedin']"></font-awesome-icon>
+                </a>
+              </div>
+              <!-- discord -->
+              <div class="m-3 column is-narrow">
+                <a href="https://dsc.bio/neemy" target="_blank">
+                  <font-awesome-icon class="fa-icon" :icon="['fab', 'discord']"></font-awesome-icon>
+                </a>
+              </div>
+              <!--<nav-button class="m-2 column is-narrow" img="/gitgreen.png" url="https://github.com/bfu4"/>
               <nav-button class="m-2 column is-narrow" img="/horsegrn.png" url="/horse"/>
               <nav-button class="m-2 column is-narrow" img="/asu.jpg" v-bind:round="true"
                           url="https://sleeeepyti.me/extern/catmc.mp4"/>
               <nav-button class="m-2 column is-narrow" img="/dscgrn.png" url="https://dsc.bio/neemy"/>
               <nav-button class="m-2 column is-narrow" img="/sc.png" url="https://soundcloud.com/bellafusari"/>
-              <nav-button class="m-2 column is-narrow" img="/linkedin.png"
-                          url="https://www.linkedin.com/in/bella-fusari-2337b3202?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BOvPg3niOTwWUtKyquus9Xg%3D%3D"/>
+              <nav-button class="m-2 column is-narrow" img="/linkedin.png"-->
             </div>
           </div>
         </div>

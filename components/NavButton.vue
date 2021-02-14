@@ -8,7 +8,7 @@
           {{ name }}
         </div>
         <div v-else-if="round" class="is-narrow smol">
-          <img v-bind:src="img" class="img-link round-image force-center"/>
+          <img v-bind:src="img" class="img-link profile-img force-center"/>
         </div>
         <div v-else class="is-narrow smol">
           <img v-bind:src="img" class="img-link"/>
