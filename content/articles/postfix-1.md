@@ -31,11 +31,11 @@ For the hostname, you can set it to the domain of choice: `example.org`.
 It installs the rest for you.
 
 ### IMPORTANT DIRECTORIES FOR POSTFIX
-* `/etc/postfix`
-* `/etc/mailname`
-* `/etc/hosts`
-* `/etc/aliases`
-* `~/Maildir/` (we'll get to this later)
+ -`/etc/postfix`
+ -`/etc/mailname`
+ -`/etc/hosts`
+ -`/etc/aliases`
+ -`~/Maildir/`
 
 ### You can start postfix by running:
 ```bash
