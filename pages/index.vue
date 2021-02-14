@@ -5,7 +5,7 @@
 
       <nav class="column navbar real-navbar columns is-mobile is-fixed-top" style="padding: 20px;">
         <a class="column real-nav-item m-2 ml-5 is-narrow nav-link has-text-weight-bold pad-10 white-text"
-           href="/blogs/postfix-1" target="_blank">
+           href="/blog/postfix-1" target="_blank">
           feature of the week
         </a>
         <a class="column real-nav-item m-2 ml-5 is-narrow nav-link has-text-weight-bold pad-10 white-text" href="/blog" target="_blank">blog</a>
