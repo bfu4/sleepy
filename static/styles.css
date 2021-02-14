@@ -1,6 +1,7 @@
 html, body, .doc {
   background-color: #e7e7e7;
   font-family: "Segoe UI", sans-serif;
+  overflow: hidden;
 }
 
 a {
