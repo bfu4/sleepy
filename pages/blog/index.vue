@@ -28,6 +28,7 @@
           title="Quadreg"
           href="/blog/quadreg"
           desc="Using Java to simulate quadratic regression to be able to find a line of best fit."
+          type="blog"
         />
 
         <!-- #2 -->
@@ -36,6 +37,7 @@
           title="Limited List"
           href="/blog/limited-list"
           desc="Another Java post, but on using primitive arrays to have rotating ArrayList."
+          type="blog"
         />
 
         <!-- #3 -->
@@ -44,6 +46,7 @@
           title="JNI (#1)"
           href="/blog/jni-1"
           desc="A simple walkthrough of compiling and using JNI on Debian (CrOS) in a small classpath using javac."
+          type="blog"
         />
 
         <!-- #4 -->
@@ -53,6 +56,7 @@
           href="/blog/postfix-1"
           desc="A simple and probably hacky way of setting up a custom domain email on a VPS using postfix and
             dovecot."
+          type="blog"
         />
 
       </div>
