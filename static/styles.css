@@ -97,6 +97,14 @@ a.real-nav-item:hover {
   transform: translateX(-30px) scale(1.2);
 }
 
+hr {
+  background-color: #332f34;
+}
+
+hr .hr2 {
+  background-color: #676d67;
+}
+
 .special:hover {
   text-decoration: underline;
   text-decoration-color: #9877b7;
@@ -134,10 +142,6 @@ a.real-nav-item:hover {
 .smol {
   width: 50px;
   height: 50px;
-}
-
-.img-link:hover {
-  filter: invert(30%);
 }
 
 code {
@@ -182,6 +186,8 @@ code {
   background-color: #453d47;
   border-radius: 10px;
   color: #989898;
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
 }
 
 .boxeh2:hover {
@@ -191,13 +197,28 @@ code {
 .grlnk {
   color: #3b8070;
   font-weight: bold;
+  border-bottom: transparent;
+  -webkit-transition: border-bottom 0.5s ease-out;
+  transition: border-bottom 0.5s ease-out;
 }
 
 .grlnk:hover {
-  text-decoration: underline;
-  text-decoration-color: #3b8070;
+  border-bottom: #3b8070 3px solid;
 }
 
 .groo {
   color: #989898;
+}
+
+.blog-ref {
+  color: #7e668c;
+  font-weight: bold;
+  border-bottom: transparent;
+  -webkit-transition: border-bottom 0.5s ease-out;
+  transition: border-bottom 0.5s ease-out;
+}
+
+.blog-ref:hover {
+  color: #676d67;
+  border-bottom: #676d67 3px solid;
 }

@@ -137,6 +137,7 @@ $ sudo systemctl restart dovecot
 We're using Cloudflare. However much it dislikes this (and it's probably bad practive), the MX record is set respectively to:
 ```
 MX    example.org     example.org
+A     example.org     your.vps.ip
 ```
 
 We also have a SPF TXT record to use with GMail:

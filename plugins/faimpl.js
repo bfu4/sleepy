@@ -1,7 +1,7 @@
 import {
   faGithub,
   faLinkedin,
-  faDiscord
+  faDiscord, faReadme
 } from "@fortawesome/free-brands-svg-icons";
 
 import { library } from "@fortawesome/fontawesome";
@@ -13,7 +13,8 @@ import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 library.add(
   faGithub,
   faLinkedin,
-  faDiscord
+  faDiscord,
+  faReadme
 )
 
 Vue.component('font-awesome-icon', FontAwesomeIcon);

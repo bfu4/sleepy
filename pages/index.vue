@@ -4,8 +4,13 @@
     <div class="m-1 is-centered is-mobile">
 
       <nav class="column navbar real-navbar columns is-mobile is-fixed-top" style="padding: 20px;">
-        <a class="column real-nav-item m-2 ml-5 is-narrow nav-link has-text-weight-bold pad-10 white-text" href="https://github.com/bfu4/TeleportQueue" target="_blank">feature of the week</a>
+        <a class="column real-nav-item m-2 ml-5 is-narrow nav-link has-text-weight-bold pad-10 white-text"
+           href="/blogs/postfix-1" target="_blank">
+          feature of the week
+        </a>
         <a class="column real-nav-item m-2 ml-5 is-narrow nav-link has-text-weight-bold pad-10 white-text" href="/blog" target="_blank">blog</a>
+        <!-- @Copystrike go brrr -->
+        <a class="column real-nav-item m-2 ml-5 is-narrow nav-link has-text-weight-bold pad-10 white-text" href="/horse" target="_blank">horse</a>
       </nav>
 
       <!-- fun images for the lolz -->
@@ -60,5 +65,12 @@
 <script lang="ts">
 import Vue from 'vue'
 
-export default Vue.extend({})
+export default Vue.extend({
+  // lol?
+  beforeCreate() {
+      console.log("===========================================");
+      console.log(" So you're peeking.. Follow my twitter @bellafusari1")
+      console.log("===========================================");
+  }
+})
 </script>
