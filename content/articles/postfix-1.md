@@ -66,7 +66,7 @@ $ sudo postman /etc/postfix/virtual
 Inside the main configuration file, `main.cf` you need to specify the hostname, destinations, domains, maildirectory, aliasmaps, and networks.
 
 ```
-myhostname = example.org
+myhostname = mail.example.org
 alias_maps = hash:/etc/aliases
 alias_database = hash:/etc/aliases
 myorigin = /etc/mailname
@@ -136,7 +136,7 @@ $ sudo systemctl restart dovecot
 ## DNS
 We're using Cloudflare. However much it dislikes this (and it's probably bad practive), the MX record is set respectively to:
 ```
-MX    example.org     example.org
+MX    example.org     mail.example.org
 A     example.org     your.vps.ip
 ```
 
