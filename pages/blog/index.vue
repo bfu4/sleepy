@@ -28,6 +28,7 @@
           title="Background Map Rendering"
           href="/blog/fakerender"
           desc="Tricking Bukkit into pre-rendering maps in the background"
+          type="blog"
         />
 
         <!-- #4 -->
