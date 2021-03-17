@@ -22,21 +22,21 @@
       </div>
       <div class="column m-5 columns is-multiline is-mobile is-centered bold">
 
-        <!-- #1 -->
+        <!-- #5 -->
         <blog-link
           class="column m-3 is-full"
-          title="Quadreg"
-          href="/blog/quadreg"
-          desc="Using Java to simulate quadratic regression to be able to find a line of best fit."
-          type="blog"
+          title="Background Map Rendering"
+          href="/blog/fakerender"
+          desc="Tricking Bukkit into pre-rendering maps in the background"
         />
 
-        <!-- #2 -->
+        <!-- #4 -->
         <blog-link
           class="column m-3 is-full"
-          title="Limited List"
-          href="/blog/limited-list"
-          desc="Another Java post, but on using primitive arrays to have rotating ArrayList."
+          title="Postfix (#1)"
+          href="/blog/postfix-1"
+          desc="A simple and probably hacky way of setting up a custom domain email on a VPS using postfix and
+            dovecot."
           type="blog"
         />
 
@@ -49,13 +49,21 @@
           type="blog"
         />
 
-        <!-- #4 -->
+        <!-- #2 -->
         <blog-link
           class="column m-3 is-full"
-          title="Postfix (#1)"
-          href="/blog/postfix-1"
-          desc="A simple and probably hacky way of setting up a custom domain email on a VPS using postfix and
-            dovecot."
+          title="Limited List"
+          href="/blog/limited-list"
+          desc="Another Java post, but on using primitive arrays to have rotating ArrayList."
+          type="blog"
+        />
+
+        <!-- #1 -->
+        <blog-link
+          class="column m-3 is-full"
+          title="Quadreg"
+          href="/blog/quadreg"
+          desc="Using Java to simulate quadratic regression to be able to find a line of best fit."
           type="blog"
         />
 
