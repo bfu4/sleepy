@@ -76,6 +76,20 @@
                 </a>
               </div>
 
+              <div class="m-3 column is-narrow">
+                <a href="https://open.spotify.com/user/f67gjtkldznx2kxntf8a0tmzp">
+                  <font-awesome-icon class="fa-icon" :icon="['fab', 'spotify']"></font-awesome-icon>
+                </a>
+              </div>
+
+              <!-- todo: spotify hook -->
+
+<!--              <div class="m-3 column is-full">
+                <a href="https://open.spotify.com/user/f67gjtkldznx2kxntf8a0tmzp">
+                  <spotify-hook></spotify-hook>
+                </a>
+              </div>-->
+
             </div>
           </div>
           <div class="column m-5 columns is-multiline is-mobile">

@@ -6,7 +6,8 @@ import {
   faSoundcloud,
   faGitlab,
   faJava,
-  faCuttlefish
+  faCuttlefish,
+  faSpotify
 } from "@fortawesome/free-brands-svg-icons";
 
 import { library } from "@fortawesome/fontawesome";
@@ -18,6 +19,7 @@ import { faAngleRight, faEnvelope, faTerminal } from "@fortawesome/free-solid-sv
 
 library.add(
   faGithub,
+  faSpotify,
   faLinkedin,
   faDiscord,
   faReadme,
