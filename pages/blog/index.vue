@@ -68,6 +68,15 @@
           type="blog"
         />
 
+        <!-- for fun -->
+        <blog-link
+          class="column m-3 is-full"
+          title="Playlists"
+          href="/blog/music"
+          desc="Some of my favorite self-curated playlists are embedded here!"
+          type="pin"
+        />
+
       </div>
     </div>
   </div>

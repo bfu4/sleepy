@@ -14,7 +14,6 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-
+<style lang="css">
+@import "static/md.css";
 </style>
