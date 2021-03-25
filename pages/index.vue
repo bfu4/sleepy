@@ -32,9 +32,9 @@
             <div class="special column is-full is-centered large bold force-center">bfu4</div>
           </div>
 
-          <!-- github -->
           <div class="column is-full m-5 columns is-centered is-mobile is-multiline">
 
+            <!-- github -->
             <div class="column is-centered columns is-mobile is-multiline">
               <div class="m-3 column is-narrow">
                 <a href="https://github.com/bfu4" target="_blank">
@@ -76,22 +76,17 @@
                 </a>
               </div>
 
+              <!-- spotify -->
               <div class="m-3 column is-narrow">
                 <a href="https://open.spotify.com/user/f67gjtkldznx2kxntf8a0tmzp">
                   <font-awesome-icon class="fa-icon" :icon="['fab', 'spotify']"></font-awesome-icon>
                 </a>
               </div>
 
-              <!-- todo: spotify hook -->
-
-<!--              <div class="m-3 column is-full">
-                <a href="https://open.spotify.com/user/f67gjtkldznx2kxntf8a0tmzp">
-                  <spotify-hook></spotify-hook>
-                </a>
-              </div>-->
-
             </div>
+
           </div>
+            <spotify-hook class="m-5 column is-full"></spotify-hook>
           <div class="column m-5 columns is-multiline is-mobile">
             <!-- brief -->
             <blog-link

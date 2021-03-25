@@ -6,15 +6,15 @@ export default {
       lang: 'en'
     },
     meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'zzZzzzzzz' },
-      { name: 'theme-color', content: '#676d67' },
-      { property: 'og:author', content: 'Bella Fusari'},
-      { property: 'og:image', content: '/favicon.ico'}
+      {charset: 'utf-8'},
+      {name: 'viewport', content: 'width=device-width, initial-scale=1'},
+      {hid: 'description', name: 'description', content: 'zzZzzzzzz'},
+      {name: 'theme-color', content: '#676d67'},
+      {property: 'og:author', content: 'Bella Fusari'},
+      {property: 'og:image', content: '/favicon.ico'}
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'}
     ],
   },
 
@@ -25,7 +25,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    '~plugins/faimpl.js'
+    '~plugins/faimpl.js',
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -54,5 +54,14 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+
+    extend: function (config, {isDev, isClient}) {
+
+      config.node = {
+        // https://github.com/nuxt-community/dotenv-module/issues/11
+        fs: "empty"
+      };
+    }
   }
+
 }
