@@ -79,7 +79,7 @@ export async function getTokenFromRefresh(refresh_token, clientId, clientSecret)
 }
 
 export async function getSongDataWrapped() {
-  const token = await getTokenFromRefresh("AQAG-LGAJgHdLV885D8BMeuHZv_jCgbpi3qN4MLQDFsV9Gil5g3shUaE2PwiSQ8mUw-QbhSnhFNm49ELxE8z5cFnVF4zquPldzEXXPBesOWBVfBjBFRAEv2ovSJu-zzY1jo", "0964b7bbfd1c486fb23ac4345d5cc9a0", "58ba7a5f1dc042fb8b531476b74d011e");
+  const token = await getTokenFromRefresh(spotify_rf_token, client_id, client_secret);
   const song = await getSong(token.data.access_token);
 
   let name;

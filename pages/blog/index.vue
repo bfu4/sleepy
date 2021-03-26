@@ -24,7 +24,7 @@
 
         <!-- #6 -->
         <blog-link
-          class="column m-5 columns is-multiline is-mobile is-centered bold"
+          class="column m-3 is-full"
           title="Spigot ➜ Forge (nodden.org)"
           href="https://www.nodden.org/blog/spigot-to-forge"
           desc="@nodden: Spigot/Bukkit is modding, but only for those who know that it's modding."
