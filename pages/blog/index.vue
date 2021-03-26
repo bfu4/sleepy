@@ -22,6 +22,14 @@
       </div>
       <div class="column m-5 columns is-multiline is-mobile is-centered bold">
 
+        <!-- #6 -->
+        <blog-link
+          class="column m-5 columns is-multiline is-mobile is-centered bold"
+          title="Spigot ➜ Forge (nodden.org)"
+          href="https://www.nodden.org/blog/spigot-to-forge"
+          desc="@nodden: Spigot/Bukkit is modding, but only for those who know that it's modding."
+          type="blog"
+        />
         <!-- #5 -->
         <blog-link
           class="column m-3 is-full"
