@@ -86,7 +86,7 @@
             </div>
 
           </div>
-            <spotify-hook class="m-5 column is-full"></spotify-hook>
+            <!--<spotify-hook class="m-5 column is-full"></spotify-hook>-->
           <div class="column m-5 columns is-multiline is-mobile">
             <!-- brief -->
             <blog-link
