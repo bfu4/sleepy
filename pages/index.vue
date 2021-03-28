@@ -5,7 +5,7 @@
 
       <nav class="column navbar real-navbar columns is-mobile is-fixed-top" style="padding: 20px;">
         <a class="column real-nav-item m-2 ml-5 is-narrow nav-link has-text-weight-bold pad-10 white-text"
-           href="/blog/fakerender" target="_blank">
+           href="https://nodden.org/blog/spigot-to-forge" target="_blank">
           feature of the week
         </a>
         <a class="column real-nav-item m-2 ml-5 is-narrow nav-link has-text-weight-bold pad-10 white-text" href="/blog"
@@ -48,6 +48,14 @@
                   <font-awesome-icon class="fa-icon" :icon="['fab', 'linkedin']"></font-awesome-icon>
                 </a>
               </div>
+
+              <!-- gitlab -->
+              <div class="m-3 column is-narrow">
+                <a href="https://gitlab.com/bfu4" target="_blank">
+                  <font-awesome-icon class="fa-icon" :icon="['fab', 'gitlab']"></font-awesome-icon>
+                </a>
+              </div>
+
               <!-- discord -->
               <div class="m-3 column is-narrow">
                 <a href="https://dsc.bio/neemy" target="_blank">
@@ -62,10 +70,17 @@
                 </a>
               </div>
 
-              <!-- gitlab -->
+              <!-- spotify -->
               <div class="m-3 column is-narrow">
-                <a href="https://gitlab.com/bfu4" target="_blank">
-                  <font-awesome-icon class="fa-icon" :icon="['fab', 'gitlab']"></font-awesome-icon>
+                <a href="https://open.spotify.com/user/f67gjtkldznx2kxntf8a0tmzp" target="_blank">
+                  <font-awesome-icon class="fa-icon" :icon="['fab', 'spotify']"></font-awesome-icon>
+                </a>
+              </div>
+
+              <!-- twitter -->
+              <div class="m-3 column is-narrow">
+                <a href="https://twitter.com/bellafusari1" target="_blank">
+                  <font-awesome-icon class="fa-icon" :icon="['fab', 'twitter']"></font-awesome-icon>
                 </a>
               </div>
 
@@ -76,23 +91,24 @@
                 </a>
               </div>
 
-              <!-- spotify -->
-              <div class="m-3 column is-narrow">
-                <a href="https://open.spotify.com/user/f67gjtkldznx2kxntf8a0tmzp">
-                  <font-awesome-icon class="fa-icon" :icon="['fab', 'spotify']"></font-awesome-icon>
-                </a>
-              </div>
 
             </div>
 
           </div>
-            <!--<spotify-hook class="m-5 column is-full"></spotify-hook>-->
+            <!-- todo <spotify-hook class="m-5 column is-full"></spotify-hook>-->
           <div class="column m-5 columns is-multiline is-mobile">
+
             <!-- brief -->
             <blog-link
               class="column m-3 is-full"
               title="About me"
-              desc="I'm a software engineer that enjoys writing code, anime, reverse engineering, and writing."
+              desc=" I'm a Software Engineer that specializes in
+                      Java-based applications. I value documentation and understanding of code bases,
+                      and because of that, I make sure that I have and maintain a close relationship with
+                      what I am working with, and the internals of such. I enjoy reverse-engineering to comprehend
+                      the internals of what I use and build -- and for personal benefit. I like to learn how to make the
+                      most of what I am given to work with.
+                      I also write websites for fun sometimes."
               type="pin"
             />
 
@@ -107,10 +123,9 @@
             <!-- worked on -->
             <blog-link
               class="column m-3 is-full"
-              title="What I've Worked On"
-              desc="I've worked on multiple Spigot plugins
-            , a few private websites, have played with ChromeOS 😉, reverse-engineered some tools (as well as java applications)
-            , and automating and deploying with TravisCI and Nexus."
+              title="TL;DR"
+              desc="I'm (primarily) a backend developer that enjoys coding, writing, and anime.
+                    I mainly specialize in Java, but I am very much not limited to it."
               type="pin"
             />
 

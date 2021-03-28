@@ -7,7 +7,8 @@ import {
   faGitlab,
   faJava,
   faCuttlefish,
-  faSpotify
+  faSpotify,
+  faTwitter
 } from "@fortawesome/free-brands-svg-icons";
 
 import { library } from "@fortawesome/fontawesome";
@@ -29,7 +30,8 @@ library.add(
   faJava,
   faCuttlefish,
   faTerminal,
-  faEnvelope
+  faEnvelope,
+  faTwitter
 )
 
 Vue.component('font-awesome-icon', FontAwesomeIcon);

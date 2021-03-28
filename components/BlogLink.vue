@@ -15,20 +15,21 @@
     <p v-if="type !== 'lang'" class="groo m-1">
       &emsp; {{ desc }}
     </p>
-    <p v-else class="groo m-1">
-      <span class="m-3" style="font-size: 30px">
-        <font-awesome-icon :icon="['fab', 'cuttlefish']"></font-awesome-icon>++
-      </span>
-      <span class="m-3" style="font-size: 30px">
+    <div v-else class="groo m-1 columns">
+      <figure class="m-3 column" style="font-size: 30px; filter: grayscale(1)">
+        <img src="/cpppp.png" width="40px" height="40px">
+      </figure>
+      <span class="m-3 column" style="font-size: 35px">
         <font-awesome-icon :icon="['fab', 'java']"></font-awesome-icon>
       </span>
-      <span class="m-3" style="font-size: 30px">
-        <img src="/sol.svg"  width="40px" height="40px">
-      </span>
-      <span class="m-3" style="font-size: 30px">
+      <figure class="m-3 mt-4 column" style="font-size: 30px; padding-top: 10px;">
+        <img src="/sol.svg"  width="60px" height="60px">
+      </figure>
+      <span class="m-3 column" style="font-size: 30px">
         <font-awesome-icon :icon="['fa', 'terminal']"></font-awesome-icon>
+        bash
       </span>
-    </p>
+    </div>
   </div>
 </template>
 
