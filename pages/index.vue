@@ -44,7 +44,7 @@
 
               <!-- linkedin -->
               <div class="m-3 column is-narrow">
-                <a href="https://www.linkedin.com/in/bella-fusari-2337b3202" target="_blank">
+                <a href="https://www.linkedin.com/in/bella-fusari" target="_blank">
                   <font-awesome-icon class="fa-icon" :icon="['fab', 'linkedin']"></font-awesome-icon>
                 </a>
               </div>
