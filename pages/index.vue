@@ -22,7 +22,7 @@
           <div class="m-5">
             <div class="column is-centered is-full is-mobile columns m-2 is-mobile">
               <figure class="column image fig fig-1">
-                <img class="profile-img1 is-1by1" src="/46942366"/>
+                <img class="profile-img1 is-1by1" src="/nee.png"/>
               </figure>
               <figure class="column image fig">
                 <img class="profile-img2 is-1by1" src="/twtimg.jpg"/>
